@@ -1,0 +1,58 @@
+                                Module (JavaScript) – 4
+
+1.What is JavaScript?
+->is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.  
+
+2.What is the use of isNaN function? 
+->The isNaN() function is used to check whether a given value is an illegal number or not.
+
+3.What is negative Infinity?
+->NEGATIVE_INFINITY is the same as the negative value of the global object's Infinity property.
+
+4.Which company developed JavaScript?
+->The first ever JavaScript was created by Brendan Eich at Netscape, and has since been updated to conform to ECMA-262 Edition 5 and later versions.
+
+5.What are undeclared and undefined variables? 
+->Undefined variable means a variable has been declared but it does not have a value. Undeclared variable means that the variable does not exist in the program at all.
+
+6.Write the code for adding new elements dynamically?
+->Syntax: document. createElement("<tagName>");
+
+7.What is the difference between ViewState and SessionState? 
+->The basic difference between these two is that the ViewState is to manage state at the client's end, making state management easy for end-user while SessionState manages state at the server's end, making it easy to manage content from this end too. ViewState: It is maintained at only one level that is page-level.
+
+8.What is === operator?
+->The strict equality operator ( === ) checks whether its two operands are equal, returning a Boolean result.
+
+9.How can the style/class of an element be changed? 
+->Another way to alter the style of an element is by changing its class attribute. 
+
+10.How to read and write a file using JavaScript? 
+->1.file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+   2.str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+   3.file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
+
+11.What are all the looping structures in JavaScript? 
+->JavaScript supports different kinds of loops:
+ 1.for - loops through a block of code a number of times.
+ 2.for/in - loops through the properties of an object.
+ 3.for/of - loops through the values of an iterable object.
+ 4.while - loops through a block of code while a specified condition is true.
+
+12.How can you convert the string of any base to an integer in JavaScript? 
+->In JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself. 
+
+13.What is the function of the delete operator? 
+->The delete operator removes a given property from an object.
+
+14.What are all the types of Pop up boxes available in JavaScript? 
+->JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+15. What is the use of Void (0)? 
+->It is used to prevent any side effects caused while inserting an expression in a web page.
+
+16.How can a page be forced to load another page in JavaScript? 
+->Approach: We can use window. location property inside the script tag to forcefully load another page in Javascript.
+
+17.What are the disadvantages of using innerHTML in JavaScript?
+->There is no append support without reparsing the whole innerHTML.
